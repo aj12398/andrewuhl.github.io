@@ -1,0 +1,108 @@
+<html>
+  <head>
+    <!--Here is the title of my website-->
+    <title>BMGT301:Assignment</title>
+	
+	<!--I know CSS so that is how I styled it-->
+    <style>
+	  .name{
+	    text-align:center;
+	    font-weight:bold;
+	  }
+	
+	  .image{
+	    height:200px;
+		width:200px;
+		transform: rotate(90deg);
+	  }
+	  
+	  .description{
+	    font-style:italic;
+	    color:red;
+	  }
+	
+	  .one{
+	    font-size:23px;
+	    font-family:Georgia;
+	    color:green;
+	  }
+	
+	  .two{
+	    font-size:15px;
+	    font-family:Helvetica;
+	    color:blue;
+	  }
+	
+	  .three{
+	    font-size:10px;
+	    font-family:Arial;
+	    color:purple;
+	  }
+	
+	  .headingOne{
+	    font-size:30px;
+	    color:red;
+	    background-color:black;
+	  }
+	
+	  .headingTwo{
+	    font-size:25px;
+	    color:blue;
+	    background-color:gray;
+	  }
+	
+	  .headingThree{
+	    font-size:40px;
+	    color:green;
+	    background-color:yellow;
+	  }
+    </style>
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118246026-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-118246026-1');
+  </script>
+
+  </head>
+  <body>
+    <!--Here is my name for the heading-->
+    <h1 class="name">Andrew Uhl</h1>
+	
+	<!--my image, I added an alt attribute just incase-->
+    <a href=http://hmpg.net/><img class="image" src=IMG_0509.JPG alt="oops"></a>
+	
+	<!--the description of myself-->
+    <p class=description>Hello! My name is Andrew Uhl. I am a business major in the University of Maryland.</p>
+    
+	<!--I am sorry for the odd color combinations for the headings-->
+	<h2 class="headingThree">Here are some lists that explain who I am</h2>
+    <h2 class="headingOne">My Hobbies</h2>
+	
+	<!--here is my ordered list-->
+    <ol>
+      <li class="one">cooking</li>
+	  <li class="two">sports. The teams I like include:</li>
+	  <!--this is my list inside the list-->
+	  <ul>
+	    <li>Giants</li>
+	    <li>Jaguars</li>
+	    <li>Rockets</li>
+	  </ul>
+	  <li class="three">hiking</li>
+    </ol>
+	
+	<!--this is my unordered list-->
+    <h2 class="headingTwo">Words that describe me</h2>
+    <ul>
+      <a href=https://www.facebook.com/andrew.uhl.9><li>social</li></a>
+	  <a href=https://www.linkedin.com/in/andrew-uhl-b25529124/> <li>personal</li></a>
+	  <a href=https://www.google.com/search?q=goofy&rlz=1C1GCEA_enUS788US788&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiOkvDImdbaAhXpQd8KHd9BBlcQ_AUICigB&biw=767&bih=715li><li>goofy</li></a>
+    </ul>
+ 
+  </body>
+</html>
